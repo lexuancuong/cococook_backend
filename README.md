@@ -1,6 +1,8 @@
 ## Endpoints in Backend
 ### Le Xuan Cuong
-``` POST /api/user/register ```
+- `POST /api/account/register`: register a new account. Body must contain 3 fields (username, password, type). Response will contain the information of the newly created user along with a USER TOKEN. This token must be passed along <b>with every request </b> as a header "Authorization" in the form "Bearer \<token>". <br>
+<i>A body accepted:</i>
+
 Example body:
 ```
 {
