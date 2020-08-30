@@ -1,0 +1,19 @@
+example recipe
+{
+    "title":"xxxxx",
+    "lotus":"0",
+    "time":10,
+    "serving":1,
+    "calo":120,
+    "type_ingredient":1,
+    "type_time":1,
+    "type_calo":1,
+    "type_meal":1,
+    "type_contry":1
+}
+
+example ingredient
+{
+    "recipe_id": "aea281af-c5f0-446a-ab88-2259eeffa748",
+    "content":[{"number":1, "content": "xxxxx"},{"number":2,"content":"xxxxx"}]
+}
